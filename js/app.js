@@ -25,14 +25,15 @@ Find the div with the id of "alias3" and replace the n/a with the following:
 Concatenation*/
 
 var concat = document.getElementById("alias3");
-concat.innerHTML = "Concatenation"
+concat.innerHTML = "Concatenation";
 
 
 /*4. Prince
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-
+var purpleRain = document.getElementsByClassName("profile");
+purpleRain[0].innerHTML = 'I never meant to cause you any sorrow I never meant to cause you any pain I only wanted to one time to see you laughing I only wanted to see you Laughing in the purple rain';
 
 /*5. Bruce Lee
 
