@@ -39,7 +39,8 @@ purpleRain[0].innerHTML = 'I never meant to cause you any sorrow I never meant t
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+var theLegend = document.getElementsByClassName("profile");
+theLegend[1].innerHTML = "Be water, my friend";
 
 /*6. Samuel L Jackson
 
