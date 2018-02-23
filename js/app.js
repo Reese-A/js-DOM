@@ -46,7 +46,8 @@ theLegend[1].innerHTML = "Be water, my friend";
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var samJack = document.getElementsByClassName('alias');
+samJack[2].innerHTML = 'Zeus Carver';
 
 /*7. Peter Griffin
 
