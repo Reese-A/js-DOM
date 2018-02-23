@@ -15,6 +15,8 @@ Find the div with the id of "position2" and replace the n/a with the following:
 
 Project Manager*/
 
+var proMan = document.getElementById("position2");
+proMan.innerHTML = "Project Manager";
 
 /*3. Piko Taro
 
@@ -22,7 +24,8 @@ Find the div with the id of "alias3" and replace the n/a with the following:
 
 Concatenation*/
 
-
+var concat = document.getElementById("alias3");
+concat.innerHTML = "Concatenation"
 
 
 /*4. Prince
